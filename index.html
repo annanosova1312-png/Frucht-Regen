@@ -455,7 +455,7 @@
     const base = Math.min(w, h);
     basket.w = clamp(Math.round(base * 0.23), 140, 230);
     basket.h = Math.round(basket.w * 0.62);
-    basket.y = h - basket.h - clamp(Math.round(h*0.05), 12, 28);
+    basket.y = h - basket.h - clamp(Math.round(h*0.12), 30, 60);
 
     basket.x = (w - basket.w)/2;
     basket.targetX = basket.x;
